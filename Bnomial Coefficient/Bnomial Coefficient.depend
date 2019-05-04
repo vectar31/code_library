@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1425674119 source:c:\users\vectar\documents\c++\bnomial coefficient\main.cpp
+	<iostream>
+	<cmath>
+

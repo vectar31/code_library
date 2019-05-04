@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1434006406 source:c:\users\chodu baklund\documents\c++\strongly connected comppnents\main.cpp
+	<cstdio>
+	<cstring>
+	<vector>
+	<iostream>
+

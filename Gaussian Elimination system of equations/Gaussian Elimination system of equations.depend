@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463970630 source:c:\users\chodu baklund\documents\c++\gaussian elimination system of equations\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+

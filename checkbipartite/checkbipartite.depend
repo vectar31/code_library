@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1431778971 source:c:\users\chodu baklund\documents\c++\checkbipartite\main.cpp
+	<iostream>
+	<cmath>
+	<algorithm>
+	<ctime>
+	<vector>
+	<list>
+	<queue>
+

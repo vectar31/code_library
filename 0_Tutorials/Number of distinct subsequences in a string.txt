@@ -1,0 +1,35 @@
+It's a classic dynamic programming problem.
+
+Let:
+
+dp[i] = number of distinct subsequences ending with a[i]
+sum[i] = dp[1] + dp[2] + ... + dp[i]. So sum[n] will be your answer.
+last[i] = last position of character i in the given string.
+A null string has one subsequence, so dp[0] = 1.
+
+read a
+n = strlen(a)
+for i = 1 to n
+  dp[i] = sum[i - 1] - sum[last[a[i]] - 1]
+  sum[i] = sum[i - 1] + dp[i]
+  last[a[i]] = i
+
+return sum[n]
+Explanation
+
+dp[i] = sum[i - 1] - sum[last[a[i]] - 1]
+Initially, we assume we can append a[i] to all subsequences ending on previous characters, 
+but this might violate the condition that the counted subsequences need to be distinct. 
+Remember that last[a[i]] gives us the last position a[i] appeared on until now. 
+The only subsequences we overcount are those that the previous a[i] was appended to, so we subtract those.
+
+sum[i] = sum[i - 1] + dp[i]
+last[a[i]] = i
+Update these values as per their definition.
+
+If your indexing starts from 0, use a[i - 1] wherever I used a[i]. 
+Also remember to wrap your computations in a mod function if you're going to submit code.
+This should be implemented like this:
+
+mod(x) = (x % m + m) % m
+In order to correctly handle negative values in some languages (such as C/C++).

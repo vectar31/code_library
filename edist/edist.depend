@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1421767195 source:c:\users\vectar\documents\c++\edist\main.cpp
+	<iostream>
+
+1432628794 source:c:\users\chodu baklund\documents\c++\edist\main.cpp
+	<iostream>
+	<cmath>
+	<algorithm>
+

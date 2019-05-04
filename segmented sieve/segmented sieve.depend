@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1466800235 source:c:\users\chodu baklund\documents\code library\segmented sieve\main.cpp
+	<iostream>
+	<algorithm>
+	<cmath>
+	<vector>
+	<cstdlib>
+	<stdint.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1434556607 source:c:\users\chodu baklund\documents\c++\kadane max sum subarray\main.cpp
+	<iostream>
+	<cmath>
+	<climits>
+
